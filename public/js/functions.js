@@ -103,7 +103,7 @@ function showProductsList(){
 
 //Ver lista productos
 function showList(){
-    fetch('/api/productos.php')
+    fetch('/api/productos')
         .then(response => response.json())
         .then(data => {
             const productListSection = document.getElementById('productListSection');
