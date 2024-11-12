@@ -190,7 +190,7 @@ function allProducts(){
     const moreProducts = document.getElementById('moreProductsButton')
 
     if(firstDiv || secondDiv || thirdDiv || fourthDiv || moreProducts){
-        firstDiv.addEventListener('click', () => {location.href = '/src/views/productos.php'})
+        firstDiv.addEventListener('click', () => {location.href = '/productos'})
         secondDiv.addEventListener('click', () => {location.href = '/src/views/productos.php'})
         thirdDiv.addEventListener('click', () => {location.href = '/src/views/productos.php'})
         fourthDiv.addEventListener('click', () => {location.href = '/src/views/productos.php'})
