@@ -190,11 +190,11 @@ function allProducts(){
     const moreProducts = document.getElementById('moreProductsButton')
 
     if(firstDiv || secondDiv || thirdDiv || fourthDiv || moreProducts){
-        firstDiv.addEventListener('click', () => {location.href = 'src/views/productos.php'})
-        secondDiv.addEventListener('click', () => {location.href = 'src/views/productos.php'})
-        thirdDiv.addEventListener('click', () => {location.href = 'src/views/productos.php'})
-        fourthDiv.addEventListener('click', () => {location.href = 'src/views/productos.php'})
-        moreProducts.addEventListener('click', () => {location.href = 'src/views/productos.php'})
+        firstDiv.addEventListener('click', () => {location.href = '/src/views/productos.php'})
+        secondDiv.addEventListener('click', () => {location.href = '/src/views/productos.php'})
+        thirdDiv.addEventListener('click', () => {location.href = '/src/views/productos.php'})
+        fourthDiv.addEventListener('click', () => {location.href = '/src/views/productos.php'})
+        moreProducts.addEventListener('click', () => {location.href = '/src/views/productos.php'})
     }
 }
 
