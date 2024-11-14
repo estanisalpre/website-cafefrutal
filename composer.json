@@ -1,0 +1,13 @@
+{
+    "name": "disenoydesarrollo/cafe-frutal",
+    "require": {
+        "flightphp/core": "^3.13",
+        "mikecao/flight": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Disenoydesarrollo\\CafeFrutal\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
